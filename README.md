@@ -12,7 +12,7 @@ Hi 👋,I'm Nadia Hosisy from Israel, and I'm on a quest to become a full-stack 
 
 ![Screenshot 2](/assets/images/screen_shot_game.PNG)
 
-**GitHub Repository:** [Link to My Project](https://github.com/nadiahosisy/minecraft-2d)
-**Live Demo:** [Link to Live Demo](https://enchanting-zuccutto-e52e39.netlify.app)
+- **GitHub Repository:** [Link to My Project](https://github.com/nadiahosisy/minecraft-2d)
+- **Live Demo:** [Link to Live Demo](https://enchanting-zuccutto-e52e39.netlify.app)
 
 Happy coding and happy crafting! 🎮🌟

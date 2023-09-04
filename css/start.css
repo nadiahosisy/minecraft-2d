@@ -1,0 +1,47 @@
+@font-face {
+  font-family: minecarfter;
+  src: url(../assets/fonts/Minecrafter.Alt.ttf);
+}
+body {
+  cursor: url("../assets/cursors/GoldSword.cur"), auto;
+}
+.game-start-view {
+  padding-top: 7rem 0;
+  gap: 7rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: url("../assets/images/720p-minecraft-background-282bdhje4wp049j9.jpg")
+    no-repeat center center/cover;
+}
+.minecraf-icon {
+  height: 3rem;
+  width: 3rem;
+  background: url("/assets/images/pmg.gif") no-repeat center center/cover;
+}
+p {
+  font-family: minecarfter;
+  font-size: 18px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.game-start-view .logo {
+  width: 90rem;
+  height: 15rem;
+  background: url("/assets/images/Minecraft-Logo-2013-2021.png") no-repeat
+    center center/cover;
+  margin-bottom: 8rem;
+}

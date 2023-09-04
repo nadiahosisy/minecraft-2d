@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+
+.game-button-green {
+  position: relative;
+  top: 0;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=30249), auto;
+  text-decoration: none !important;
+  outline: none !important;
+  font-family: "Carter One", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  border: none;
+  margin: 15px 15px 30px;
+  color: var(--color-7) !important;
+  border-radius: 8px;
+  padding: 8px 15px 10px;
+}
+
+.game-button-green::before {
+  content: "";
+  height: 10%;
+  position: absolute;
+  width: 40%;
+  background: var(--color-7);
+  right: 13%;
+  top: -3%;
+  border-radius: 99px;
+}
+.game-button-green::after {
+  content: "";
+  height: 10%;
+  position: absolute;
+  width: 5%;
+  background: var(--color-7);
+  right: 5%;
+  top: -3%;
+  border-radius: 99px;
+}
+
+.game-button-green {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-25),
+    var(--color-25) 5px,
+    var(--color-18) 5px,
+    var(--color-18) 10px
+  );
+  box-shadow: 0 6px 0 var(--color-24), 0 8px 1px 1px var(--color-21),
+    0 10px 0 5px var(--color-15), 0 12px 0 5px var(--color-12),
+    0 15px 0 5px var(--color-16), 0 15px 1px 6px var(--color-21);
+  border-bottom: 3px solid var(--color-19);
+  text-shadow: 2px 2px 1px var(--color-24), -2px 2px 1px var(--color-24),
+    2px -2px 1px var(--color-24), -2px -2px 1px var(--color-24),
+    0px 2px 1px var(--color-24), 0px -2px 1px var(--color-24),
+    0px 4px 1px var(--color-16), 2px 4px 1px var(--color-16),
+    -2px 4px 1px var(--color-16);
+}
+.game-button-green:hover {
+  top: 2px;
+  box-shadow: 0 4px 0 var(--color-24), 0 6px 1px 1px var(--color-21),
+    0 8px 0 5px var(--color-15), 0 10px 0 5px var(--color-12),
+    0 13px 0 5px var(--color-16), 0 13px 1px 6px var(--color-21);
+}

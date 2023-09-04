@@ -1,0 +1,164 @@
+div.tile {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-size: contain;
+  color: var(--color-7);
+}
+div#map {
+  background: var(--color-17);
+  line-height: 5px;
+  margin: 0 auto;
+  box-shadow: 0 0 0 7px var(--color-6);
+  margin-top: 80px;
+}
+
+.tile:hover {
+  -webkit-box-shadow: 0px 0px 1px 2px var(--color-1);
+  -moz-box-shadow: 0px 0px 1px 2px var(--color-1);
+  box-shadow: 0px 0px 1px 2px var(--color-1);
+}
+
+.reset img {
+  -webkit-animation: spin 0.2s ease-in-out;
+  -moz-animation: spin 0.2s ease-in-out;
+  animation: spin 0.2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.buttons-container {
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+}
+.bgholder > div > img {
+  width: 85%;
+  padding: 7px;
+}
+.bgholder {
+  cursor: pointer;
+}
+.bgholder > div {
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-7);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bgholder > .active {
+  box-shadow: inset 0 0 0 7px var(--color-11);
+}
+
+div#buttons {
+  background: var(--color-10);
+  padding: 20px;
+}
+.main-div {
+  position: fixed;
+  background: var(--color-22);
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 100% !important;
+}
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.blue {
+  background-color: var(--color-14);
+  border-bottom: 5px solid var(--color-5);
+  text-shadow: 0px -2px var(--color-5);
+}
+.logoHolder {
+  width: 80%;
+  margin: 0 auto;
+}
+.logoHolder img {
+  width: 100%;
+}
+
+.inv span {
+  font-size: 1.5em;
+  color: var(--color-8);
+  text-align: right;
+  display: block;
+  margin-top: -35px;
+  margin-right: 8px;
+  background-color: var(--color-3);
+  border-radius: 100px;
+  width: fit-content;
+  margin-left: 10px;
+  align-items: center;
+}
+
+#container {
+  background-color: var(--color-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-3);
+  border-right: 1px solid var(--color-3);
+}
+
+#gameMap {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.reset {
+  background-color: var(--color-4) !important;
+}
+
+.inventory-container {
+  display: none;
+  position: absolute;
+  top: 44rem;
+  left: 10rem;
+  background: linear-gradient(0deg, var(--color-23) 38%, var(--color-13) 51%);
+  gap: 10px;
+  height: 7em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 5px var(--color-20);
+}
+
+.modal-container {
+  content: url(../assets/images/boxAnimated.webp);
+  width: 6rem;
+  height: 6rem;
+}

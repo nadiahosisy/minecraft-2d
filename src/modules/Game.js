@@ -26,11 +26,11 @@ export default class Game {
     new Element(this, letsPlay, this.selectedWidth).generateElements(); // this is UI class - dynamic elements (Trees , Clouds..)
   }
 
-  random(min, max, excluded) {
-    let n = Math.floor(Math.random() * (max - min) + min);
-    if (n >= excluded) n++;
-    return n;
-  }
+  // random(min, max, excluded) {
+  //   let n = Math.floor(Math.random() * (max - min) + min);
+  //   if (n >= excluded) n++;
+  //   return n;
+  // }
 
   initializeTools() {
     new Tool(this, "axe", AXE_REMOVAL);

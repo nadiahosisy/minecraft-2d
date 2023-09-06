@@ -9,6 +9,6 @@ document
     if (gameStartView) {
       gameStartView.parentNode.removeChild(gameStartView);
     }
-    // Reset and start the game if it's already been initialized before
+
     game.start();
   });

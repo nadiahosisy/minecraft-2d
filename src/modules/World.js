@@ -53,7 +53,7 @@ export default class World {
     buttonsContainer.className = "buttons-container bgholder";
     const resetButton = document.createElement("div");
     resetButton.className = "reset";
-    resetButton.innerHTML = `<img src='http://itc.yananas.com/git/minecraft/images/reset.png'>`;
+    resetButton.innerHTML = `<img src='../assets/images/reset.png'>`;
 
     buttonsContainer.appendChild(resetButton);
     leftPanel.appendChild(buttonsContainer);

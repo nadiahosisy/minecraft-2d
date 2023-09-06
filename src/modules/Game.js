@@ -18,12 +18,12 @@ export default class Game {
 
   start() {
     let letsPlay = new World(this);
-    letsPlay.generateWorld();
-    letsPlay.generateTile();
-    this.initializeTools();
+    letsPlay.generateWorld(); //generating all divs
+    letsPlay.generateTile(); //generating all tiles
+    this.initializeTools(); //generating all tools
     this.buttons = new Button(this);
 
-    new Element(this, letsPlay, this.selectedWidth).generateElements();
+    new Element(this, letsPlay, this.selectedWidth).generateElements(); // this is UI class - dynamic elements (Trees , Clouds..)
   }
 
   random(min, max, excluded) {
